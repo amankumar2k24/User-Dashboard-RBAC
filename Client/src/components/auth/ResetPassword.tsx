@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as Yup from 'yup';
 import { useResetPasswordMutation } from '../../store/api/authApi';
 import { toast } from 'react-hot-toast';
 import { Link } from 'react-router-dom';

@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as Yup from 'yup';
 import { useForgotPasswordMutation } from '../../store/api/authApi';
 import { toast } from 'react-hot-toast';
 import { Link, useNavigate } from 'react-router-dom';

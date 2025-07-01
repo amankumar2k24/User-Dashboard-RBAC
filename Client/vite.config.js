@@ -4,7 +4,7 @@ export default defineConfig({
   plugins: [
     tailwindcss(),
   ],
-   server: {
+  server: {
     port: 3000,
     proxy: {
       '/api': {

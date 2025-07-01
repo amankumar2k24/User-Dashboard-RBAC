@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as Yup from 'yup';
 import { useLoginMutation } from '../../store/api/authApi';
 import { useDispatch } from 'react-redux';
 import { setCredentials } from '../../store/slices/authSlice';

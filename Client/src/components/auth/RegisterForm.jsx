@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { Link, useNavigate } from "react-router-dom"
 import { yupResolver } from '@hookform/resolvers/yup';
-import * as Yup from 'yup';
 import { useRegisterMutation } from '../../store/api/authApi';
 import { toast } from 'react-hot-toast';
 import { Eye, EyeOff, Upload, X } from 'lucide-react';
